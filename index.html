@@ -111,8 +111,113 @@
             </div>
         </div>
     </div>
-</body>
 
+    <div class="container-fluid lastSection arabic-text pt-5 pb-3">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 pt-5 pb-5">
+                <img src="image/img5.jpg" alt="" class="half-image">
+                <img src="image/img6.jpg" alt="" class="half-image">
+            </div>
+            <div class="col info col-lg-6 col-md-6  arabic-text">
+                <h3 class=" text-light">ماذا يمكن أن أفعل ؟</h3>
+
+                <p class="text-muted mt-4">األشخاص الذين يعانون من كمية كبيرة
+                    من حب الشباب قد يحتاجون إلى عالج
+                    طبي. لكن الشخص يستطيع ان يساعد
+                    نفسه في الكثير من األحيان للتخفيف
+                    من حدة حب الشباب</p>
+                <ul class="text-muted">
+                    <li>التخفيف من تناول الشحوم واستبداله
+                        بزيت الزيتون، تناول األسماك بدال من
+                        اللحمة، تناول األطعمة الغنية باأللياف
+                        مثل الفواكة والخضار والقمح. واالبتعاد
+                        عن المأكوالت الغنية بالسكر</li>
+                    <li>
+                        غسل الوجه مرتين في اليوم بصابون
+                        خفيف وماء فاتر. عدم فرك الوجه بليفة
+                        خشنة، حيث أنه يمكن أن يزيد من تحفيز
+                        حب الشباب
+                    </li>
+                    <li>
+                        ل تلعب في البثور, اذ قد يسبب التهابات
+                        حولها, ويمكن أن تزيد الزيوت التي على
+                        اليدين من حدتها مما يترك لها أثر دائم
+                        على الوجه
+                    </li>
+                    <li>
+                        يجب استعمال المكياج الخالي من الزيوت
+                        لتفتدي انسداد المسامات
+                    </li>
+                </ul>
+                <h4 class="mt-4">
+                    :علاج حب الشباب </h4>
+                <ul class="text-muted">
+                    <li>ادوية يوصفها الطبيب تساعد على
+                        تغذية البشرة</li>
+                    <li>
+                        المضادات الحيوية
+                    </li>
+                    <li>
+                        استعمال واقي الشمس دائمًا في النهار
+                        والمراهم الموضعية
+                    </li>
+                    <li>
+                        العالجات التجميلية كالليزر
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="line" id="ball-container"></div>
+    <div class="container-fluid footer arabic-text pt-5 pe-4">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h4 class="fw-bold">الدوار الخامس</h4>
+                <ul class="text-muted">
+                    <li> ١٣ شارع خليل مزعل (مجمع حنانيا الطبي)</li>
+                    <li>
+                        ٣ شارع سليمان الحديدي (عمارة جميعان)
+                    </li>
+                    <li>
+                        ١٥ شارع سليمان الحديدي (عيادات عبدون)
+
+                    </li>
+                    <li>
+                        شارع سليمان الحديدي (مجمع أيوب الطبي)
+                    </li>
+                </ul>
+                <h4 class="fw-bold">جبل عمان</h4>
+                <ul class="text-muted">
+                    <li> 52 شارع إبن خلدون (مجمع القريني الطبي)</li>
+                    <li>
+                        12 شارع إبن خلدون (مركز الياسمين الطبي)
+                    </li>
+                    <li>
+                        31 شارع أبو فراس الحمداني
+                        (مستشفى عبدالهادي)
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h4 class="fw-bold">خلدا - تالع العلي</h4>
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h4 class="fw-bold">خلدا - تالع العلي</h4>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const ballContainer = document.getElementById("ball-container");
+    const numberOfBalls = 22;
+    for (let i = 0; i < numberOfBalls; i++) {
+        const ball = document.createElement("div");
+        ball.classList.add("ball");
+        ballContainer.appendChild(ball);
+    }
+</script>
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="bootstrap/js/all.min.js"></script>
 
