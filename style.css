@@ -23,6 +23,8 @@
   box-sizing: border-box;
 }
 
+/* arabic */
+
 .landing {
   position: relative;
   height: 618px;
@@ -195,4 +197,51 @@
   padding-top: 5px;
   background-color: #5b8393;
   border-radius: 10px;
+}
+
+/* Enlish  */
+
+/* acne information section in english*/
+
+.acneInfoEnglish img {
+  width: 70%;
+  height: 300px;
+}
+
+.acneInfoEnglish {
+  text-align: center;
+  padding-left: 50px;
+}
+
+.acneInfoEnglish .info {
+  text-align: start;
+}
+.acneInfoEnglish .col.info h3 {
+  padding: 10px;
+  padding-right: 100px;
+}
+
+/* acne factors section in english*/
+.factorsEnglish {
+  padding-left: 50px;
+  text-align: center;
+}
+
+.factorsEnglish img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.factorsEnglish .info {
+  text-align: start;
+}
+
+.factorsEnglish .info h3 {
+  background-color: #5b8393;
+  padding: 10px;
+  display: inline;
+  border-radius: 20px;
 }
