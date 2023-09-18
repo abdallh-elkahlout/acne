@@ -106,7 +106,7 @@
   height: 300px;
   border-radius: 50%;
   margin-top: 25px;
-  margin-right: 20px;
+  margin-right: 35px;
 }
 
 .factors .info {
@@ -232,7 +232,7 @@
   height: 300px;
   border-radius: 50%;
   margin-top: 25px;
-  margin-left: 20px;
+  margin-left: 35px;
 }
 
 .factorsEnglish .info {
@@ -267,3 +267,26 @@
   padding-right: 100px;
 }
 
+/* footer in english */
+.footerEnglish {
+  background-color: #efece9;
+}
+.footerEnglish h4 {
+  color: #5b8393;
+}
+
+.footerEnglish ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.footerEnglish ul li {
+  direction: ltr;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.footerEnglish ul li:before {
+  content: "-";
+  padding-left: 5px;
+}
