@@ -89,22 +89,32 @@
   display: inline;
   border-radius: 20px;
 }
-.col.info h4{
-    color: #5b8393 ;
+.col.info h4 {
+  color: #5b8393;
 }
 
 /* acne factors section */
 .factors {
-    padding-right: 50px;
-    text-align: center;
+  padding-right: 50px;
+  text-align: center;
 }
 
-.factors img{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+.factors img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 }
 
 .factors .info {
-    text-align: end;
-  }
+  text-align: end;
+}
+
+.factors .info h3 {
+  background-color: #5b8393;
+  padding: 10px;
+  display: inline;
+  border-radius: 20px;
+}
+.factors .col.info h4 {
+  color: #5b8393;
+}
