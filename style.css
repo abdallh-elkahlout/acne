@@ -1,0 +1,69 @@
+/* الخط للعربية */
+@font-face {
+  font-family: "GE-SS-Text";
+  src: url("GE_SS_TEXT_LIGHT.otf");
+}
+
+/* الخط للإنجليزية */
+@font-face {
+  font-family: "CenturyGothic";
+  src: url("Century\ Gothic.ttf");
+}
+
+/* تطبيق الخطوط على النصوص */
+.arabic-text {
+  font-family: "GE-SS-Text", Arial, sans-serif;
+}
+
+.english-text {
+  font-family: "CenturyGothic", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.landing {
+  position: relative;
+  height: 618px;
+}
+.landing .upper {
+  background-color: #5b8393;
+  padding: 50px;
+  text-align: center;
+  z-index: 1;
+  height: 60%;
+}
+
+.landing .lower {
+  background-color: #efece9;
+  text-align: center;
+  z-index: 1;
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.landing .center-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 2;
+    border: 10px solid #706d69;
+  }
+  
+.biolab{
+    width: 180px;
+    margin-top: 70px;
+}
+.acneIcon{
+    width: 50px;
+    height: 50px;
+    margin-top: 100px;
+}
+
