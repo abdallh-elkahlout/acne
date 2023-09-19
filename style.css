@@ -34,7 +34,7 @@ body {
   height: 618px;
 }
 .landing .upper {
-  background-color: #5b8393;
+  background-color: red;
   padding: 50px;
   text-align: center;
   z-index: 1;
