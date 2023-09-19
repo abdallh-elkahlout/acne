@@ -260,7 +260,10 @@ body {
   text-align: start;
 }
 .acneInfoEnglish .col.info h3 {
+  background-color: #5b8393;
   padding: 10px;
+  display: inline;
+  border-radius: 20px;
 }
 
 /* acne factors section in english*/
