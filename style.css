@@ -10,6 +10,7 @@
   src: url("Century\ Gothic.ttf");
 }
 
+/* تطبيق الخطوط على النصوص */
 .arabic-text {
   font-family: "GE-SS-Text", Arial, sans-serif;
 }
@@ -33,7 +34,7 @@ body {
   height: 618px;
 }
 .landing .upper {
-  background-color: red;
+  background-color: #5b8393;
   padding: 50px;
   text-align: center;
   z-index: 1;
