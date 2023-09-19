@@ -82,7 +82,7 @@ body {
 
 .acneInfo {
   text-align: center;
-  padding-right: 50px;
+  padding-right: 30px;
 }
 
 .acneInfo .info {
@@ -112,7 +112,7 @@ body {
 /* acne factors section */
 
 .factors {
-  padding-right: 50px;
+  padding-right: 30px;
   text-align: center;
 }
 
@@ -168,7 +168,7 @@ body {
 /* advice section  */
 
 .advice {
-  padding-right: 50px;
+  padding-right: 30px;
   text-align: center;
 }
 
@@ -192,6 +192,11 @@ body {
 .advice .col.info h4 {
   color: #5b8393;
 }
+
+.advice ul {
+  margin-right: 30px;
+}
+
 .advice .info ul li {
   direction: rtl;
 }
@@ -253,7 +258,7 @@ body {
 
 .acneInfoEnglish {
   text-align: center;
-  padding-left: 50px;
+  padding-left: 30px;
 }
 
 .acneInfoEnglish .info {
@@ -268,7 +273,7 @@ body {
 
 /* acne factors section in english*/
 .factorsEnglish {
-  padding-left: 50px;
+  padding-left: 30px;
   text-align: center;
 }
 
@@ -322,7 +327,7 @@ body {
 /* advice section in english */
 
 .adviceEnglish {
-  padding-left: 50px;
+  padding-left: 30px;
   text-align: center;
 }
 
@@ -338,7 +343,9 @@ body {
 .adviceEnglish .info h3 {
   padding: 10px;
 }
-
+.adviceUl li {
+  margin-bottom: 5px;
+}
 /* footer in english */
 
 .footerEnglish {
