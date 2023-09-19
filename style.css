@@ -316,7 +316,6 @@ body {
 @media (width <392px) {
   .factorsEnglish .info .title {
     font-size: 0.9rem;
-    background-color: red;
   }
 }
 
