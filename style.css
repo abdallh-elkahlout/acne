@@ -289,6 +289,7 @@ body {
   padding: 10px;
   display: inline;
   border-radius: 20px;
+  text-wrap: nowrap;
 }
 
 @media (width <999px) {
@@ -314,7 +315,7 @@ body {
 
 @media (width <392px) {
   .factorsEnglish .info .title {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }
 
