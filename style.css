@@ -10,7 +10,6 @@
   src: url("Century\ Gothic.ttf");
 }
 
-/* تطبيق الخطوط على النصوص */
 .arabic-text {
   font-family: "GE-SS-Text", Arial, sans-serif;
 }
