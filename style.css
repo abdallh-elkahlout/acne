@@ -298,7 +298,7 @@ body {
 }
 
 @media (width <392px) {
-  .factors .images {
+  .factorsEnglish .images {
     padding-right: 30px;
   }
 }
