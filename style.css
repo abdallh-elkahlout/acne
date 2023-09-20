@@ -296,6 +296,13 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
+@media (width <392px) {
+  .factors .images {
+    padding-right: 30px;
+  }
+}
+
 .factorsEnglish img {
   width: 300px;
   height: 300px;
@@ -347,7 +354,11 @@ body {
   padding-left: 30px;
   text-align: center;
 }
-
+@media (width <392px) {
+  .adviceEnglish .images {
+    padding-right: 30px;
+  }
+}
 .adviceEnglish img {
   width: 300px;
   height: 300px;
