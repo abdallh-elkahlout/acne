@@ -164,6 +164,9 @@ body {
   .factors .info .title {
     font-size: 0.7rem;
   }
+  .factors .images {
+    padding-left: 30px;
+  }
 }
 
 .factors .col.info h4 {
