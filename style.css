@@ -170,7 +170,7 @@ body {
 }
 
 .factors .col.info h4 {
-  color: red;
+  color: #5b8393;
 }
 
 /* advice section  */
@@ -180,6 +180,11 @@ body {
   text-align: center;
 }
 
+@media (width <392px) {
+  .advice .images {
+    padding-left: 30px;
+  }
+}
 .circular-image {
   width: 270px;
   height: 270px;
