@@ -75,6 +75,11 @@ body {
 
 /* acne information section */
 
+@media (width <392px) {
+  .acneInfo .image {
+    padding-left: 30px;
+  }
+}
 .acneInfo img {
   width: 300px;
   height: 300px;
@@ -263,6 +268,12 @@ body {
 /* Enlish  */
 
 /* acne information section in english*/
+
+@media (width <392px) {
+  .acneInfoEnglish .image {
+    padding-right: 30px;
+  }
+}
 .acneInfoEnglish img {
   width: 300px;
   height: 300px;
